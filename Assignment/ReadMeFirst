@@ -1,0 +1,15 @@
+1. Main class file is inside the src/com/google folder.
+2. The whole test is written in TestNG framework.
+3. In this test, driver class executes the IE and chrome browsers to perform test.
+3. The URLs for the chrome and IE driver needs to be changed inside @BeforeMethod annotation.
+4. Data (Google search keywords) is provided as part of the @DataProvider annotation.
+5. An outer loop is created to capture the number of pages to search through.
+6. The inner loop captures the search results and prints the text of the URLs.
+7. Whenever search result matches the parameter ("finzy"), we get out of the outer loop.
+8. Whenever search result matches keyword, it also prints which page it's found.
+9. Parallel execution can be performed by providing the parallel parameter for the suite in the TestNG.xml.
+But due to some restrictions on my chrome browser, I was not able to.
+
+Please feel free to contact me at 7278083055 for any concerns.
+
+Abhinoy Bagchi
