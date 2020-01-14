@@ -56,6 +56,7 @@ public class GoogleSearch {
 	  }
 	  
 	  else if (browser.equalsIgnoreCase("chrome")) {
+		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\home\\Desktop\\AB\\IEDriverServer_Win32_3.150.1\\IEDriverServer.exe");
 		  
 	  }
 	  
